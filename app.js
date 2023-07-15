@@ -17,7 +17,7 @@ app.use(express.static("public"));
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb+srv://fswebdeveloper:fswebdeveloper247@cluster0.mlikrlt.mongodb.net/todolistDB');
+  await mongoose.connect('mongodb+srv://manikhaldar247:haldar247@cluster0.mlikrlt.mongodb.net/todolistDB');
 
   // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
 }
